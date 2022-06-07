@@ -70,7 +70,7 @@ body {
     background-blend-mode: multiply;
     width: 1180px;
     height: 680px;
-    position: relative;
+    margin-bottom: 100px;
 }
 .b-header__languages, .b-header__lang {
     display: inline-block;
