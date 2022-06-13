@@ -85,23 +85,29 @@ body {
 .b-header__languages:last-child {
     margin-right:0;
 }
-.b-promo__title, .title {
+.title {
     font-size: 60px;
     line-height: 65px;
     letter-spacing:-0.75px;
-    color: #f4f4f7;
+    color: #2d2d42;
     font-weight: 900;
     margin-bottom: 30px;
 }
-.b-promo__subtitle, .subtitle {
+.subtitle{
     margin:0;
     font-weight: 300;
     font-style: lighter;
-    color: #f4f4f7;
+    color: #2d2d42;
     font-size: 20px;
     line-height: 30px;
     letter-spacing:0;
     margin-bottom: 78px;
+}
+.b-promo__title {
+    color: #f4f4f7;
+}
+.b-promo__subtitle {
+    color: #f4f4f7;
 }
 a.b-contact-us {
     position: absolute;
@@ -235,4 +241,96 @@ h2 {
     width: 30px;
     height: 1px;
     background-color: #64cae1;
+}
+.b-ourwork {
+    margin:0;
+    margin-bottom: 100px;
+}
+.b-ourwork__cards {
+    display: flex;
+    flex-wrap:wrap;
+    box-sizing:border-box;
+    width: 1180px;
+}
+.b-ourwork__big {
+    width: 1180px;
+    height:600px;
+}
+.b-ourwork__big_first {
+    background: url("../img/vid-birdieeyes.jpg") no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+    position: relative;
+}
+.b-ourwork__small {
+    width: 50%;
+    box-sizing:border-box;
+}
+.b-ourwork__title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size:13px;
+    line-height: 20px;
+    letter-spacing:1.73px;
+    margin-bottom: 50px
+}
+.b-ourwork__description {
+    font-size:30px;
+    line-height: 40px;
+    letter-spacing: 0;
+    font-weight: 300;
+}
+.b-ourwork .title, .b-ourwork .subtitle {
+    padding: 0 130px 0 200px;
+}
+.b-ourwork__square {
+    position:relative;
+    box-sizing:border-box;
+    width: 380px;
+    height: 380px;
+    padding: 40px 40px 0 40px;
+    background-color: #f4f4f7;
+}
+.b-ourwork__square_white {
+    color: #f4f4f7;
+    background-color: #64cae1;
+    margin-bottom: 39px;
+    position: absolute;
+    top:200px;
+    left:200px;
+}
+.small-img {
+    margin-top: 20px;
+    width: 580px;
+}
+.image {
+    margin:0;
+    padding:0;
+}
+.b-ourwork__big_last {
+    background: url("../img/img-team-home.jpg") no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+    position: relative;
+}
+.b-ourwork__square_black {
+    position: absolute;
+    top: 200px;
+    left: 600px;
+}
+.inside {
+    padding: 0 130px 0 200px;
+    position: relative;
+}
+.insidesquare {
+    position: absolute;
+    left: -40px;
+    bottom:0px;
+    box-sizing:border-box;
+    width: 380px;
+    height: 380px;
+    padding: 40px 40px 0 40px;
+    background-color: #f4f4f7;
+    background: url("../icons/TC.svg") no-repeat;
+    background-position: 45px 305px;
 }
