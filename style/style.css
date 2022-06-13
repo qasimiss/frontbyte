@@ -321,6 +321,7 @@ h2 {
 .inside {
     padding: 0 130px 0 200px;
     position: relative;
+    margin-bottom: 80px;
 }
 .insidesquare {
     position: absolute;
@@ -331,6 +332,41 @@ h2 {
     height: 380px;
     padding: 40px 40px 0 40px;
     background-color: #f4f4f7;
+}
+.insidesquare::after {
+    position:absolute;
+    top:50%;
+    left:50%;
     background: url("../icons/TC.svg") no-repeat;
-    background-position: 45px 305px;
+    width:50px;
+    height: 26px;
+}
+.b-news-article {
+    margin-right: 100px;
+}
+.b-news-title {
+    margin-bottom: 50px;
+}
+
+.b-news {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.b-news-item {
+    width: 280px;
+}
+
+.b-news-descr {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #2d2d42;
+    margin-bottom: 20px;
+}
+
+.b-news-time {
+    font-size: 15px;
+    line-height: 1.33;
+    color: #93a4a9;
 }
