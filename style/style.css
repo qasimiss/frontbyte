@@ -251,6 +251,7 @@ h2 {
     flex-wrap:wrap;
     box-sizing:border-box;
     width: 1180px;
+   justify-content: space-between;
 }
 .b-ourwork__big {
     width: 1180px;
@@ -263,7 +264,7 @@ h2 {
     position: relative;
 }
 .b-ourwork__small {
-    width: 50%;
+    width: 49%;
     box-sizing:border-box;
 }
 .b-ourwork__title {
