@@ -575,6 +575,13 @@ svg {
     margin-left: 118px;
     margin-right: auto;
 }
+.b-social__link img {
+    transition-duration: 0.7s;
+    transition-property: transform;
+}
+.b-social__link img:hover {
+    transform: scale(1.5);
+}
 .b-title--countries {
     font-size: 20px;
     font-weight: bold;
@@ -590,8 +597,14 @@ svg {
    color: #f4f4f7;
    margin-bottom: 10px;
 }
+.b-countries__link:hover {
+    color:#64cae1;
+}
 .b-countries__mail {
     color: #64cae1;
+}
+.b-countries__mail:hover {
+    color: #f4f4f7;
 }
 .b-countries__mail, .b-countries__link {
     display: block;
