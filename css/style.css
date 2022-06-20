@@ -16,7 +16,6 @@
     font-weight: 900;
     font-display: swap;
 }
-
 @font-face {
     font-family: 'Roboto';
     src:
@@ -49,7 +48,6 @@ body {
     box-sizing:border-box;
     align-items: center;
     position: relative;
-
 }
 .b-lang__list, .b-menu__list {
     display: inline-block;
@@ -139,7 +137,7 @@ h1,h2 {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    padding: 172px 200px 80px 200px;
+    padding: 172px 200px 0 200px;
     box-sizing: border-box;
     object-fit: cover;
     min-height: 680px;
@@ -170,19 +168,26 @@ h1,h2 {
     color: rgba(250, 250, 250, 0.6);
     max-width: 672px;
 }
+.b-promo > .b-subtitle--promo {
+    margin-bottom: 76px;
+}
 a.b-link {
+    padding: 0;
+    margin: 0;
     margin-left: -200px;
     display: block;
     max-width: 580px;
     height: 80px;
     text-decoration: none;
-    border: solid 1px rgba(244, 244, 247, 0.1);
+    border-top: solid 1px rgba(244, 244, 247, 0.1);
+    border-right: solid 1px rgba(244, 244, 247, 0.1);
     transition-duration: 0.3s;
     transition-property: border,color;
     position: relative;
 }
 a.b-link:hover {
-    border: solid 1px rgba(255, 255, 255, 1);
+    border-top: solid 1px rgba(255, 255, 255, 1);
+    border-right: solid 1px rgba(255, 255, 255, 1);
     color:rgba(255, 255, 255, 1);
 }
 .b-link__text {
@@ -455,7 +460,6 @@ svg {
 }
 .b-inside__carousel {
     display: flex;
-    /* justify-content: space-between; */
 }
 .b-inside__btn {
     width: 65px;
@@ -523,4 +527,114 @@ svg {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: relative;
+}
+.b-contacts {
+    width: 100%;
+    box-sizing: border-box;
+    background: #000000;
+    background-size: 50%;
+    position: relative;
+    min-height: 720px;
+    z-index: 5;
+}
+.b-contacts::before {
+        content: "";
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: #64cae1;
+        border-radius: 50%;
+        left: 670px;
+        top: 257px;
+        z-index: 5;
+    }
+.b-contacts::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #d04b9b;
+    border-radius: 50%;
+    left: 754px;
+    top: 282px;
+    z-index: 5;
+}
+.b-contacts > .b-subtitle--promo, .b-contacts .b-title--promo, .b-social-wrap {
+    width: 380px;
+    color: #ffffff;
+}
+.b-contacts > .b-title--promo {
+    margin-bottom: -5px;
+}
+.b-social-wrap {
+    display: flex;
+    justify-content: space-between;
+    max-width: 140px;
+    margin-top: 20px;
+    margin-left: 118px;
+    margin-right: auto;
+}
+.b-title--countries {
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #f4f4f7;
+    margin-bottom: 20px;
+}
+.b-countries__city, .b-countries__link, .b-countries__mail {
+   width: 380px;
+   color: #f4f4f7;
+   margin-bottom: 10px;
+}
+.b-countries__mail {
+    color: #64cae1;
+}
+.b-countries__mail, .b-countries__link {
+    display: block;
+}
+.b-countries__norway, .b-countries__belarus {
+    display: inline-block;
+}
+.b-countries {
+    margin-top: 0px;
+}
+.b-countries__norway {
+    margin-right: 110px;
+}
+.b-map {
+    position: absolute;
+    opacity: 0.8;
+    top: 180px;
+    left:249px;
+    z-index: -10;
+}
+.b-map__img {
+    width: 100%;
+}
+.b-footer {
+    margin-top: -81px;
+    position: relative;
+    z-index: 12;
+}
+a.b-link--footer {
+    display: inline-block;
+    background: #64cae1;
+    margin-left:0;
+    width: 580px;
+    margin-right: 115px;
+}
+.b-copyright {
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 20px;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #f4f4f7;
+    opacity: 0.5;
+    font-weight: 300;
+    display: inline-block;
 }
