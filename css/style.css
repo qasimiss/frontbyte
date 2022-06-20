@@ -478,7 +478,7 @@ svg {
     bottom: -15px;
     right: -15px;
 }
-.b-inside__btn:hover {
+.b-inside__btn:hover, .b-inside__btn:focus {
     background-color:#2d2d42;
 }
 .b-news {
