@@ -141,7 +141,6 @@ h1,h2 {
     padding: 172px 200px 0 200px;
     box-sizing: border-box;
     object-fit: cover;
-    min-height: 680px;
     z-index: 2;
     margin-bottom: 100px;
 }
@@ -172,7 +171,7 @@ h1,h2 {
     max-width: 672px;
 }
 .b-promo > .b-subtitle--promo {
-    margin-bottom: 76px;
+    margin-bottom: 78px;
 }
 a.b-link {
     padding: 0;
