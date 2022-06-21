@@ -84,6 +84,7 @@ a {
     line-height: 1.33;
     letter-spacing: normal;
     transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
 }
 .b-logo {
     margin-right: -80px;
@@ -104,6 +105,7 @@ a {
     border-radius: 50%;
     transition-duration: 0.7s;
     transition-property: border;
+    transition-timing-function: ease-in-out;
 }
 .b-lang__list-item a:hover, .b-lang__list-item a:focus {
     border: 1px solid rgba(250, 250, 250, 0.6);
@@ -185,6 +187,7 @@ a.b-link {
     border-right: solid 1px rgba(244, 244, 247, 0.1);
     transition-duration: 0.7s;
     transition-property: border,color;
+    transition-timing-function: ease-in-out;
     position: relative;
     border-bottom: none;
 }
@@ -357,6 +360,7 @@ svg {
     height: 100%;
     transition-duration: 0.7s;
     transition-property: transform;
+    transition-timing-function: ease-in-out;
 }
 .b-square {
     position: absolute;
@@ -497,6 +501,7 @@ svg {
     letter-spacing: normal;
     transition-property: text-shadow;
     transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
 }
 .b-subtitle--news:hover {
     text-shadow: 0 0 4px black;
@@ -573,6 +578,7 @@ a.b-social__link  {
 .b-social__link img {
     transition-duration: 0.7s;
     transition-property: transform;
+    transition-timing-function: ease-in-out;
 }
 .b-social__link img:hover {
     transform: scale(1.5);
@@ -636,6 +642,7 @@ a.b-link--footer {
     margin-right: 110px;
     transition-duration: 0.3s;
     transition-property: background;
+    transition-timing-function: ease-in-out;
 }
 a.b-link--footer:hover {
     background: transparent;
