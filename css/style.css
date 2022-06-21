@@ -168,7 +168,8 @@ h1,h2 {
     line-height: 1.5;
     letter-spacing: normal;
     color: rgba(250, 250, 250, 0.6);
-    max-width: 672px;
+    max-width: 670px;
+
 }
 .b-promo > .b-subtitle--promo {
     margin-bottom: 78px;
@@ -191,7 +192,6 @@ a.b-link:hover {
     border-top: solid 1px rgba(255, 255, 255, 1);
     border-right: solid 1px rgba(255, 255, 255, 1);
     color:rgba(255, 255, 255, 1);
-    border-bottom: none;
 }
 .b-link__text {
     font-size:20px;
@@ -388,7 +388,7 @@ svg {
     color:#2d2d42;
     max-width: 440px;
     display: -webkit-box;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 6;
     -webkit-box-orient: vertical;
 }
 .b-ourwork > .b-cards > .b-card--big > .b-square > .b-title--square {
@@ -633,7 +633,10 @@ a.b-link--footer {
     background: #64cae1;
     margin-left:0;
     width: 580px;
-    margin-right: 115px;
+    margin-right: 110px;
+}
+a.b-link--footer:hover {
+    background: transparent;
 }
 .b-copyright {
     font-family:'Roboto', sans-serif;
