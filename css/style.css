@@ -634,6 +634,8 @@ a.b-link--footer {
     margin-left:0;
     width: 580px;
     margin-right: 110px;
+    transition-duration: 0.3s;
+    transition-property: background;
 }
 a.b-link--footer:hover {
     background: transparent;
