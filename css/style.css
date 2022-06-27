@@ -285,7 +285,7 @@ svg {
     flex-direction: row;
     flex-wrap: wrap;
 }
-.b-list-item {
+.b-list__item {
     position: relative;
     font-size: 20px;
     font-weight: 300;
