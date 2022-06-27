@@ -604,6 +604,8 @@ a.b-social__link  {
 .b-countries__mail {
     color: #64cae1;
 }
+.b-countries__link:hover {
+    color:#64cae1;
 .b-countries__mail:hover {
     color: #f4f4f7;
 }
@@ -656,4 +658,11 @@ a.b-link--footer:hover {
     color: rgba(250,250,250,0.4);
     font-weight: 300;
     display: inline-block;
+}
+.b-social__link img {
+    transition-duration: 0.7s;
+    transition-property: transform;
+}
+.b-social__link:hover img {
+    transform: scale(1.5)
 }
